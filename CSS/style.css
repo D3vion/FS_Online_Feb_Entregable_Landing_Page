@@ -53,7 +53,6 @@ body {
 
 .logo {
 	padding: 15px;
-	font-size: 18px;
 }
 
 .imagen {
@@ -63,16 +62,23 @@ body {
 .headerprincipal {
     display: flex;
     justify-content: space-between;
+	align-items: center;
+	padding: 20px;
 }
 
 .barranav {
 	display: flex;
 	gap: 50px;
-	padding: 30px;
 }
 
 .headerprincipal a {
     color: #23aaa3;
     text-decoration: none;
 	font-size: 18px;
+}
+
+.lenguaje {
+	background-color: pink;
+	width: 105px;
+	height: 32px;
 }
